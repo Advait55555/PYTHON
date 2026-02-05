@@ -37,7 +37,6 @@
 #     print("I dont know")
 
 #Example 4:
-
 # a = int(input("Enter an integer:"))
 # if a%5 == 0:
 #     print("Divisible by 5")
