@@ -15,8 +15,10 @@
 # print(ss)
 
 a = int(input("enter an integer:"))
-count = 0
+sum = 0
 while a!=0:
+    lastdigit = a%10
+    sum = sum + (lastdigit**2)
     a = a//10
-    count += 1
-print(count)
+print(sum)
+
