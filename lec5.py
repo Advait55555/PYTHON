@@ -37,3 +37,21 @@
 #         break
 #use flag variable for element not found
 
+# s = "SaiUniversity"
+# a = input("Enter a character:")
+# if a in s:
+#     print(True)
+# else:
+#     print(False)
+
+#HOMEWORK : WITHOUT USING THE GENERIC WAY CHECK IF A SUBSTRING IS PRESENT IN A STRING OR NOT
+#HOMEWORK 2: USING WHILE LOOP, AMD WITHOUT LEN() COUNT THE NUMBER OF CHARACTERS IN A STRING
+
+a = int(input("Enter an integer :"))
+b = int(input("Enter another in"))
+try:
+    print(a/b)
+except ZeroDivisionError:
+    print("division by zero")
+
+print("i am a fat loser")
